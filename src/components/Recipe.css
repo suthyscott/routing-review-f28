@@ -1,0 +1,19 @@
+.recipe-ingredients-box {
+    /* border: solid blue 2px; */
+}
+
+.info-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.recipe-ingredients-box {
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.instructions-box {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
