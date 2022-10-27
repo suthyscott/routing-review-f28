@@ -10,6 +10,9 @@ const Header = () => {
         <NavLink to='/auth'>
             Auth
         </NavLink>
+        <NavLink to='/add'>
+            Add Recipe
+        </NavLink>
     </div>
   )
 }

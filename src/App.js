@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Auth from './components/Auth'
 import Recipe from './components/Recipe';
 import Home from './components/Home';
+import AddRecipe from './components/AddRecipe';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path='/auth' element={<Auth/>}/>
         <Route path='/recipe/:id' element={<Recipe/>}/>
+        <Route path='/add' element={<AddRecipe/>}/>
       </Routes>
     </div>
   );
